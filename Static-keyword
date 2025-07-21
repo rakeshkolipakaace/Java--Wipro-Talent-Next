@@ -29,3 +29,26 @@ A static method can access only other static memebrs directly.
 A static variable acts as a global variable within class means all objects of the class can access static variables Memeory.
 
 
+
+
+Packages:
+---------
+
+Packages is a collection of relatec classes (.class files)
+
+package keyword is used to create a package.
+
+In a source code file we can have only one package statememts with multiple imports and class declarations.
+
+The classes under the package are stored in a folder whose name is same as the package name.
+
+Only public classes are accessbile outside the package.
+
+
+To use classes of one package into another we need to import the package.
+
+Example : import mypackage.A; (package with class name)
+           
+                              or 
+
+         import mypackage.*; (package with all classes)
