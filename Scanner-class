@@ -1,0 +1,83 @@
+Scanner class 
+-------------
+
+Scanner class is used to read input from the keyboard.
+
+Scanner class has two constructors.
+
+
+Creating Scanner class object
+
+Scanner s=new Scanner(System.in);//system.in is the default input stream (represents the keyboard).
+
+
+Scanner class methods
+---------------------
+1.nextInt()
+2.nextDouble()
+3.nextFloat()
+4.nextLong()
+5.nextShort()
+6.nextByte()
+7.nextBoolean()
+8.next()
+9.hasNext()
+10.nextLine()
+11.hasNextLine()
+12.nextBigInteger()
+13.nextBigDecimal()
+14.nextBigInteger()
+15.nextBigDecimal()
+
+nextInt()
+---------
+Reads an integer from the input stream.
+
+nextDouble()
+------------
+Reads a double from the input stream.
+
+nextFloat()
+-----------
+Reads a float from the input stream.
+
+nextLong()
+----------
+Reads a long from the input stream.
+
+nextShort()
+-----------
+Reads a short from the input stream.
+
+nextByte()
+----------
+Reads a byte from the input stream.
+
+nextBoolean()
+-------------
+Reads a boolean from the input stream.
+
+next()
+------
+Reads a string from the input stream.
+
+hasNext()
+---------
+Checks if there is another token available on the input stream.
+
+nextLine()
+----------
+Reads the next line from the input stream.
+
+hasNextLine()
+-------------
+Checks if there is another line available on the input stream.
+
+nextBigInteger()
+----------------
+Reads a BigInteger from the input stream.
+
+nextBigDecimal()
+----------------    
+Reads a BigDecimal from the input stream.
+
