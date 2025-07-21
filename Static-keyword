@@ -1,0 +1,31 @@
+Static keyword
+--------------
+
+static keyword can be used for data memebers and methods and inner classes.
+
+static keyword cannot be used for top level classes (outer classes).
+
+Example:
+
+static class sample{}//error
+
+static keyword can be used for local variables (declared within a method).
+
+Example:
+
+class sample{
+    void method(){
+        static int n;//error-local variables cannot be static
+    }
+}
+
+
+static memebers are accessible directly with the class without creating objects.
+
+object can also access static memebers.
+
+A static method can access only other static memebrs directly.
+
+A static variable acts as a global variable within class means all objects of the class can access static variables Memeory.
+
+
