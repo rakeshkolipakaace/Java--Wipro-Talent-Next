@@ -1,0 +1,40 @@
+Data Types
+----------
+
+Data types are the types of data that a variable can hold.
+
+There are two types of data types:
+
+
+Points on Data Types
+--------------------
+
+Data memebrs declared within a class.
+
+Local variables declared within a method.
+
+
+Example: 
+
+class sample{
+    int m// data memebers
+
+    void method(){
+        int n;// local variables
+    }
+
+    main(){
+        sample s = new sample();
+
+        sop(s.m);// default value is 0
+
+        s.method();// it will give u the error as local variables should be initialized.
+    }
+}
+
+ The default value is applicable for data memebers only.
+
+Memeory allocation for refernence data type is done during runtime using new operator.
+
+
+
