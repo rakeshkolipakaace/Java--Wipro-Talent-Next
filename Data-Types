@@ -38,3 +38,46 @@ Memeory allocation for refernence data type is done during runtime using new ope
 
 
 
+Type Casting
+------------
+
+Converting one data type to another.
+ 
+
+Types of  Casting 
+-----------------
+ 
+1. Implicit Casting
+2. Explicit Casting
+
+
+Implicit Casting
+----------------
+
+Implicit casting is done by the compiler. it converts from lower data type to higher data type.
+
+Example: 
+int a = 10;
+float b = a;
+
+
+Explicit Casting
+----------------
+Explicit casting is done by the programmer. it converts from lower data type to higher data type.
+
+Example: 
+
+long a = 10;
+int b=x;//error as x is of type long
+int b = (int)a;
+
+
+
+jshell is tool to execute the java statements.
+
+jshell> int a = 10;
+10
+
+write jshell in cmd 
+
+and for exit jshell type exit
