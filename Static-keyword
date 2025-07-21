@@ -52,3 +52,34 @@ Example : import mypackage.A; (package with class name)
                               or 
 
          import mypackage.*; (package with all classes)
+
+
+//com.tutorial package
+
+package com.tutorial;
+
+import mypackage1.claculator; // Correct import from your package
+
+public class Welcome {
+
+	public static void main(String[] args) {
+
+		 claculator c = new claculator(); // create object of claculator
+
+	        c.Apple(1, 2); // call the Apple method
+
+		System.out.println("Welcome to Eclipse");
+	}
+}
+
+
+//mypackage1 package
+
+package mypackage1;
+
+public class claculator {
+
+	public void Apple(int a, int b) {
+		System.out.println("Sum is: " + (a + b));
+	}
+}
