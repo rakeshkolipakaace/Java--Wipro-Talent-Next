@@ -1,0 +1,76 @@
+Java is an Object Oriented programming languauge developed by James Gosing at sun Microsystems.
+
+Sun Microsystems is a multinational software corporation that designs, develops, and sells computer software and personal computers.
+
+Sun Microsystems is acquired by oracle Corp in 2010.
+
+
+Object Oriented Concepts/features
+-----------------------------------
+
+1.Object
+
+2.Classes
+
+3.Abstraction
+
+4.Inheritance
+
+5.Encapsulation
+
+6.Polymorphism
+
+
+Object
+------
+An object is a real Time entity which has identity state and behaviour.
+
+Example: for a Car
+
+Car can be identified by its Registration Number.
+
+-----------------------------------------------------------------------------
+Car has the state of its colour, model, year, mileage , price , Capacity etc.
+-----------------------------------------------------------------------------
+
+This are called as Data members/Variables/Properties/Fields/Attributes.
+
+-----------------------------------------------------------------------------
+Car has the behaviour of its accelerate, brake, turn , stop etc.
+-----------------------------------------------------------------------------
+
+This are called as Methods/Functions/Actions/Procedures/Operations.
+
+
+Classes
+-------
+
+A class is a collection of data members and methods.
+
+Example: class person{
+    //Data Members
+    String name;
+    int age;
+    //Methods
+    eat(){}
+    sleep(){}
+    walk(){}
+    run(){}
+}
+
+The members (data memebrs/methods) of the class are accessed using objects with dot(.) operator.
+
+Creating Object
+--------------- 
+person p = new person();
+p.name = "Rakesh";
+p.age = 21;
+p.eat();
+p.sleep();
+p.walk();
+p.run();
+
+
+
+
+
