@@ -1,0 +1,83 @@
+OOPS stands for Object Oriented Programming System.
+
+OOPS is a programming paradigm that uses objects to represent real-world entities.
+
+
+Object Oriented Concepts/features
+-----------------------------------
+1.Object
+2.Classes
+3.Abstraction
+4.Inheritance
+5.Encapsulation
+6.Polymorphism
+
+
+this keyword
+------------
+this keyword is used to refer to the current object.
+
+this is generally used to differentiate data memebers of a class and arguments of a method when the names are same.
+
+
+Constructors
+------------
+A constructor is a special method whose name is same as the classname used to initialize the object and does not return 
+
+anything not even void..
+
+Syntax:
+
+class sample{
+    int m;
+    void sample(int n)// an ordinary method 
+    {
+        m = n;
+    }
+    sample(int n)// constructor name same as classname
+    {
+        m = n;
+    }
+
+}
+
+
+points on constructors
+-----------------------
+
+
+1. Constructors are called when an object is created.
+
+2.If a class does not have a constructor, then the compiler automatically creates a default constructor for that class.
+
+3.The default constructor is called implicitly when an object is created.
+
+
+If  a class contians parameterized constructor then it is the responsiblity of the programmer to create default constructor in the class.
+
+
+Example:
+
+cclass Item {
+    int m;
+
+    Item(int n)// parameterized constructor
+     {
+        m = n;
+    }
+
+    Item() {}//default constructor
+
+    void display() {
+        System.out.println(m);
+    }
+}
+
+public class Main {
+    public static void main(String args[]) {
+        Item i = new Item(10);
+        i.display();
+        Item j = new Item();
+        j.display();
+    }
+}
