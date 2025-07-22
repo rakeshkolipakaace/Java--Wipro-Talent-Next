@@ -62,9 +62,21 @@ Access modifiers
 
 - protected
 
+  A class cannot be protected
+
+  Ex:
+
+  protected class Myclass{}//error
+
+  - protected keyword is used for data memebers , methods and inner classes
+
+  - protected memebers are accessible within the same package and subclass of another package
+
 
 
 - public 
+
+ 
 
 
 Non Access Modifiers
