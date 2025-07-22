@@ -67,3 +67,39 @@ Super reference
 
 is used to refer to the base class memebers from derived class method.
 
+
+
+Constructor in Inheritance
+---------------------------
+
+    Super () is the first statement added to every constructor implicitly which invokes base class default constructor.
+
+    Example:
+
+        class Parent {
+    Parent() {
+        System.out.println("Parent constructor called");
+    }
+}
+
+class Child extends Parent {
+    Child() {
+        // super(); // <-- Implicitly added by the compiler
+        System.out.println("Child constructor called");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Child c = new Child();
+    }
+}
+
+Output:
+
+Parent constructor called   
+Child constructor called
+
+- To call parameterized constructor of base class from derived class constructor call it explicity.
+
+- call to super() must be first statement in constructors
