@@ -76,6 +76,12 @@ Access modifiers
 
 - public 
 
+  - A class can be public 
+
+  - Accessible everywhere
+
+  - If the class is public then the name of the source code file should be same as the class name 
+  
  
 
 
