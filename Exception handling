@@ -1,0 +1,31 @@
+Exception handling
+------------------
+
+An exception is a runtime error whicj occurs during program execution and terminates the program abnormally.
+
+
+Types of Errors
+---------------
+
+1. Compile time errors or syntax errors
+
+2. Logical errors or semantic errors
+
+
+Five keyword in Exception handling
+----------------------------------
+
+blocks
+------
+1. try
+2. catch
+3. finally
+
+
+clauses
+-------
+
+1. throws
+2. throw
+
+
