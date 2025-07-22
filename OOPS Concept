@@ -1,0 +1,23 @@
+Inheritance
+-----------
+
+The process of creating a new class from an existing class is called inheritance.
+
+Extend keyword is used to create a new class from an existing class.
+
+Syntax:
+
+
+class  vechile{
+
+}
+
+class car extends vechile{
+
+}
+
+Through inheritance we can achieve reusability of code.
+
+
+Java does not support multiple inheritance due to ambiguity means in java a class an extend only for one class.
+
