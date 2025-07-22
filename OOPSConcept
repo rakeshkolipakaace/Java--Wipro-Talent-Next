@@ -105,3 +105,29 @@ Child constructor called
 - call to super() must be first statement in constructors
 
 
+
+Encapsulation
+-------------
+
+The binding(wrapping) upof data memebers and methods together into a container called class and by providing security to data is called encapsulation.
+
+
+Example: class Person{
+    private int age;
+
+    void method(int a){
+        if(a>=18 && a<=60){
+            age = a;
+        }
+        else{
+            System.out.println("Invalid age");
+        }
+
+    }
+}
+
+Employee e = new Employee();
+
+e.age=-20;//error
+
+e.setAge(30);
