@@ -1,0 +1,107 @@
+Inheritance
+-----------
+
+The process of creating a new class from an existing class is called inheritance.
+
+Extend keyword is used to create a new class from an existing class.
+
+Syntax:
+
+
+class  vechile{
+
+}
+
+class car extends vechile{
+
+}
+
+Through inheritance we can achieve reusability of code.
+
+
+Java does not support multiple inheritance due to ambiguity means in java a class an extend only for one class.
+
+
+
+Polymorphism
+------------
+
+Means many forms
+
+
+Types :
+
+1. Complile time
+
+- Method overloading
+
+2. Run time
+
+- Method overriding
+
+
+
+-method overloading
+-------------------
+
+Method name is same but the signature is different. signature => no.of arguments/type of arugements
+                                      
+                                       OR 
+
+Method overloading is the process of defining multiple methods with the same name but different parameters.
+
+
+- Applicable with in the same class as well as subclasses.
+
+
+-method overriding
+------------------
+
+Method name is same and signature  is also same 
+
+Applicable only in subclasses
+
+
+Super reference
+---------------
+
+is used to refer to the base class memebers from derived class method.
+
+
+
+Constructor in Inheritance
+---------------------------
+
+    Super () is the first statement added to every constructor implicitly which invokes base class default constructor.
+
+    Example:
+
+        class Parent {
+    Parent() {
+        System.out.println("Parent constructor called");
+    }
+}
+
+class Child extends Parent {
+    Child() {
+        // super(); // <-- Implicitly added by the compiler
+        System.out.println("Child constructor called");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Child c = new Child();
+    }
+}
+
+Output:
+
+Parent constructor called   
+Child constructor called
+
+- To call parameterized constructor of base class from derived class constructor call it explicity.
+
+- call to super() must be first statement in constructors
+
+
