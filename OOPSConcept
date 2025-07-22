@@ -131,3 +131,52 @@ Employee e = new Employee();
 e.age=-20;//error
 
 e.setAge(30);
+
+
+
+
+Abstarct classes
+----------------
+
+Abstraction means hiding the details and showing only the important things.
+
+A method that is declared but not defined (no body) is called an abstract method.
+
+
+
+It is used to form the rules/specifications
+
+- A method which is decalred  is calles abstract method.
+
+- An abstract class contains zero or more abstract methods
+
+
+abstract class vechile{
+    abstract void drive();
+
+    void applyBrakes(){
+        System.out.println("Applying brakes");
+    }
+}
+
+class car extends vechile{
+
+    void drive(){
+        System.out.println("Driving");
+    }
+
+    void changeGear(){
+        System.out.println("Changing gear");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        vechile v = new car();
+        v.drive();
+        v.applyBrakes();
+
+        car c = new car();
+        c.changeGear();
+    }
+}
