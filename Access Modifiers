@@ -3,7 +3,32 @@ Access modifiers
 
 - private
 
-- default
+   A class cannot be private
+
+    Ex:
+    private class Myclass{}//error
+    
+    - private keyword can be used data memebers , methods and inner classes
+    - private memebers are accessible only withiin the same class
+
+    Ex:
+     class A{
+        private int n;
+        void method(){
+            n=10;//valid
+        }
+     }
+
+     class B{
+        void method1(){
+
+            A a = new A();
+            a.n = 10;//error
+        }
+     }
+
+
+- default (no need to specify)
 
 - protected
 
