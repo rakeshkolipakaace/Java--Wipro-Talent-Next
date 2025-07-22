@@ -81,7 +81,18 @@ Access modifiers
   - Accessible everywhere
 
   - If the class is public then the name of the source code file should be same as the class name 
-  
+
+
+
+  Short and simple:
+
+- private => accessible only within the same class
+
+- default => accessible only within the same package
+
+- protected => accessible within the same package and subclass of another package
+
+- public => accessible everywhere
  
 
 
