@@ -39,3 +39,22 @@ final class Base{}
 class Derived extends Base{}
 // ❌ Error: Cannot extend final class
 
+
+Predefined final classes
+------------------------
+
+System
+String
+Math
+
+Wrapper classes
+---------------
+
+Byte
+Short
+Integer
+Long
+Float
+Double
+Character   
+Boolean
