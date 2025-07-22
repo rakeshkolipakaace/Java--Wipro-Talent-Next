@@ -30,7 +30,39 @@ Access modifiers
 
 - default (no need to specify)
 
+   - A class can be default  accessible only within the same package 
+
+   Example:
+
+   package pack1;
+
+   public class A{
+    int n;//default specifier
+   }
+
+   class B{
+    void method(){
+        A a = new A();
+        a.n = 10;//valid
+    }
+   }
+
+   package pack2;
+
+   import pack1.A;
+
+   public class C{
+
+       void method(){
+           A a = new A();
+           a.n = 10;//error
+       }
+   }
+
+
 - protected
+
+
 
 - public 
 
