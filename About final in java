@@ -1,0 +1,41 @@
+Final variable
+--------------
+
+it is a constant means the value of the variable cannot be changed.
+
+Example:
+
+final int MAX_VALUE = 100;
+
+MAX_VALUE = 100; // error
+
+
+Final method
+------------
+
+it cannot be overridden.
+
+
+class Parent {
+    public final void show() {
+        System.out.println("This is a final method.");
+    }
+}
+
+class Child extends Parent {
+    // ❌ Error: Cannot override the final method from Parent
+    // public void show() {
+    //     System.out.println("Trying to override");
+    // }
+}
+
+
+Final class
+------------
+
+it cannot be subclass
+
+final class Base{}
+class Derived extends Base{}
+// ❌ Error: Cannot extend final class
+
