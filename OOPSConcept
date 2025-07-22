@@ -180,3 +180,54 @@ public class Main {
         c.changeGear();
     }
 }
+
+Interface
+---------
+
+It is used to form the rules/specifications
+An interface is a collection of abstract methods.
+
+In an interface all data memebers are public , static,and final by default.
+
+In an interface all methods are public and abstract by default.
+
+
+Example:
+
+interface I1{
+    [public static final] int MAX=100;
+    [public abstract] void xxx();
+    [public abstract] void yyy();
+}
+
+- If a class implements an interface then we need to overall all abstract methods else make the class as abstarct
+
+Ex:
+class A implements I1{
+    void xxx(){...}
+    void yyy(){...}
+}
+
+
+- we cannot create object for interface but we can create refrences referring to the subclass object
+
+Example:
+
+interface Animal {
+    void sound();
+}
+
+class Dog implements Animal {
+    public void sound() {
+        System.out.println("Bark");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog(); // 👈 Interface reference → Dog object
+        a.sound();            // ✅ Calls Dog's version of sound()
+    }
+}
+
+A class can implements multiple interfaces
