@@ -78,6 +78,6 @@ nextBigInteger()
 Reads a BigInteger from the input stream.
 
 nextBigDecimal()
-----------------    
+------------------    
 Reads a BigDecimal from the input stream.
 
