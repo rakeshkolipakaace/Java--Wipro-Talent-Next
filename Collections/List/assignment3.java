@@ -1,7 +1,7 @@
 package Collections.List;
 
 import java.util.ArrayList;
-
+import java.util.Iterator;
 
 public class assignment3 {
 
