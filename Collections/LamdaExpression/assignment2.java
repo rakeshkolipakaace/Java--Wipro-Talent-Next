@@ -2,6 +2,7 @@ package Collections.LamdaExpression;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class assignment2 {
     public static void main(String[] args) {
@@ -21,6 +22,17 @@ public class assignment2 {
 
         System.out.println("Words in reverse order:");
         al.forEach(word -> System.out.println(word));
+
+        HashMap<String, String> map = new HashMap<>();
+        map.put("fruit", "apple");
+        map.put("animal", "dog");
+
+        assignment2 obj = new assignment2();
+        System.out.println("Key 'fruit' exists: " + obj.keyExists(map, "fruit"));
+        System.out.println("Key 'vehicle' exists: " + obj.keyExists(map, "vehicle"));
     }
 
+    public boolean keyExists(HashMap<String, String> map, String key) {
+        return map.containsKey(key);
+    }
 }
