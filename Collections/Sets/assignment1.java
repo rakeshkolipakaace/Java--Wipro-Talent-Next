@@ -23,6 +23,11 @@ public class assignment1 {
         obj1.saveCountryNames("Australia");
 
         System.out.println(obj1.getCountry("India"));
+
+        // if available
+        System.out.println(obj1.getCountry("Australia"));
+
+        // if not available
         System.out.println(obj1.getCountry("Russia"));
 
     }
